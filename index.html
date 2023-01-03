@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+</head>
+<body class="flex-grid">
+    <header class="border-gradient border-gradient-grey">
+        <h1>Drew's Folio</h1>
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#work">Works</a></li>
+                <li><a href="#avatar">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="avatar">I am a beginner developer looking to challenge myself with a new direction in my IT career
+        <img id="avatarpic" src="https://user-images.githubusercontent.com/10481532/209845827-3cec9dd1-828d-4405-94b5-88e9c141ece3.jpg" />
+        I have been in the IT industry as a systems administrator or in IT management for over 10 years now.
+    </section>
+    <section class="border-gradient border-gradient-grey" id="work">
+        <h4>My Works</h4>
+        <img id="portfoliopic" src="https://user-images.githubusercontent.com/10481532/210187994-103fb460-6604-4887-99f8-cc0af312333e.png" />
+    </section>
+    <section id="contact">
+        <h4>Contact Me</h4>
+        <form action="action_page.php">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="Email" placeholder="Valid email address format">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Topic of inquiry" style="height:200px"></textarea>
+
+            <button type="button">Submit</button>
+
+        </form>
+    </section>
+</body>
+</html>
