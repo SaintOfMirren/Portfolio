@@ -9,6 +9,8 @@ My first webpage coded from scratch using HTML and CSS only.
 
 ## Demo
 
+![image](https://user-images.githubusercontent.com/10481532/210187994-103fb460-6604-4887-99f8-cc0af312333e.png)
+
 link
 
 ## Features
