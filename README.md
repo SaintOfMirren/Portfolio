@@ -20,4 +20,5 @@ https://saintofmirren.github.io/Portfolio/
 
 - Fullscreen mode
 - Cross platform
-- Contact Form
+- Countdown timer in JavaScript
+- local storage saved data
